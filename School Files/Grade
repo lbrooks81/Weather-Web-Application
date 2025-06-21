@@ -1,0 +1,20 @@
+75/100
+
+Categories
+
+Effort - 13/20
+- Many oversights in the application that could have been fixed with more rigorous debugging.
+
+Constraints Met - 25/40
+- Missing login redirection on every page.
+- User details were to be saved in localStorage using a stringified JSON object(s).
+- Cookies are stored as session cookies when they need to persist.
+
+UI/UX - 18/15
++3 E.C. for Bootstrap Icons.
+
+Bug-Free - 9/15
+- (-3) Redirections do not work. This is due to hard-coding a port and a pseudopath that PhpStorm includes in your URL. Relative paths should have been used instead.
+- (-3) Weather data for current weather does not refresh due to getWeatherData() being called without a URL.
+
+Source Code Cleanliness - 10/10
